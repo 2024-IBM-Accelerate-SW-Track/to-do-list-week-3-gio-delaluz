@@ -40,7 +40,7 @@ class AddTodo extends Component {
 
   handleDueDateChange = (event) => {
     this.setState({
-      due: new Date(event).toLocaleString(),
+      due: new Date(event).toLocaleDateString(),
     });
   };
 
